@@ -12,10 +12,26 @@ import { Product } from '../app.component';
 export class PetShopAnimalsSuppliesComponent implements OnInit {
 
   product_objs_list: Product[] = [
-    {name: "", imgUrl: "", price: ""},
-    {name: "", imgUrl: "", price: ""},
-    {name: "", imgUrl: "", price: ""},
-    {name: "", imgUrl: "", price: ""},
+    {
+      name: "mammal supplies", 
+      imgUrl: "assets/images/pet-shop-animal-supply-catagories/pet-shop-mammal-supplies.jpg", 
+      price: ""
+    },
+    {
+      name: "fish supplies", 
+      imgUrl: "assets/images/pet-shop-animal-supply-catagories/pet-shop-fish-supplies.jpg", 
+      price: ""
+    },
+    {
+      name: "reptile supplies", 
+      imgUrl: "assets/images/pet-shop-animal-supply-catagories/pet-shop-reptile-supplies.jpg", 
+      price: ""
+    },
+    {
+      name: "bird supplies", 
+      imgUrl: "assets/images/pet-shop-animal-supply-catagories/pet-shop-bird-supplies.jpg", 
+      price: ""
+    },
   ]
 
   constructor() { }

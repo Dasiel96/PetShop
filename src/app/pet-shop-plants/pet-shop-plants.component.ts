@@ -12,10 +12,26 @@ import { Product } from '../app.component';
 export class PetShopPlantsComponent implements OnInit {
 
   product_objs_list: Product[] = [
-    {name: "", imgUrl: "", price: ""},
-    {name: "", imgUrl: "", price: ""},
-    {name: "", imgUrl: "", price: ""},
-    {name: "", imgUrl: "", price: ""},
+    {
+      name: "aquatic plants", 
+      imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-aquatic-plants.jpg", 
+      price: ""
+    },
+    {
+      name: "terrestrial plants", 
+      imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-terrestrial-plants.jpg", 
+      price: ""
+    },
+    {
+      name: "low light plants", 
+      imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-low-light-plants.jpg", 
+      price: ""
+    },
+    {
+      name: "high light plants", 
+      imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-high-light-plants.jpg", 
+      price: ""
+    },
   ]
   constructor() { }
 
