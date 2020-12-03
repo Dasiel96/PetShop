@@ -2,8 +2,10 @@
 <div class="col-blank"></div>
 <div class="col-blank"></div>
 <div class="shop-catagory-grid">
-    <img src="#" alt="pet-shop-item-catagory" style="width: 100%; height: 300px; background-color: aqua;">
-    <img src="#" alt="pet-shop-item-catagory" style="width: 100%; height: 300px; background-color: aqua;">
-    <img src="#" alt="pet-shop-item-catagory" style="width: 100%; height: 300px; background-color: aqua;">
-    <img src="#" alt="pet-shop-item-catagory" style="width: 100%; height: 300px; background-color: aqua;">
+    <img 
+        *ngFor="let product of product_objs_list" 
+        src="{{product.imgUrl}}" 
+        alt="pet-shop-item-catagory"
+        style="width: 100%; height: 300px; background-color: aqua;"
+    >
 </div>
