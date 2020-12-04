@@ -2,11 +2,14 @@
 <div class="col-blank"></div>
 <div class="col-blank"></div>
 <div class="shop-catagory-grid">
+    <a 
+    *ngFor="let product of product_objs_list" 
+    href="{{product.link}}">
     <img 
-        *ngFor="let product of product_objs_list" 
         class="resize"
         src="{{product.imgUrl}}" 
         alt="pet-shop-item-catagory"
         style="background-color: aqua;"
     >
+    </a>
 </div>

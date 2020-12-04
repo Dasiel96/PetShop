@@ -15,22 +15,26 @@ export class PetShopPlantsComponent implements OnInit {
     {
       name: "aquatic plants", 
       imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-aquatic-plants-sm.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
     {
       name: "terrestrial plants", 
       imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-terrestrial-plants.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
     {
       name: "low light plants", 
       imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-low-light-plants-sm.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
     {
       name: "high light plants", 
       imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-high-light-plants.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
   ]
   constructor() { }

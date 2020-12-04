@@ -16,22 +16,26 @@ export class PetShopAnimalsComponent implements OnInit {
     { 
       name: "mammals", 
       imgUrl: "assets/images/pet-shop-animal-catagories/pet-shop-mammal-catagory.jpg", 
-      price: "" 
+      price: "" ,
+      link: ""
     },
     { 
       name: "fish", 
       imgUrl: "assets/images/pet-shop-animal-catagories/pet-shop-fish-catagories.jpg", 
-      price: "" 
+      price: "",
+      link: ""
     },
     { 
       name: "reptiles", 
       imgUrl: "assets/images/pet-shop-animal-catagories/pet-shop-reptile-catagories.jpg", 
-      price: "" 
+      price: "",
+      link: ""
     },
     { 
       name: "birds", 
       imgUrl: "assets/images/pet-shop-animal-catagories/pet-shop-bird-catagories.jpg", 
-      price: "" 
+      price: "",
+      link: "/pet-shop-animals-catagory/birds" 
     },
   ]
 

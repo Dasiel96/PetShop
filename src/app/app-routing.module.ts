@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { PetShopAnimalsBirdsComponent } from './pet-shop-animals-birds/pet-shop-animals-birds.component';
 import { PetShopAnimalsSuppliesComponent } from './pet-shop-animals-supplies/pet-shop-animals-supplies.component';
 import { PetShopAnimalsComponent } from './pet-shop-animals/pet-shop-animals.component';
 import { PetShopPlantSuppliesComponent } from './pet-shop-plant-supplies/pet-shop-plant-supplies.component';
@@ -9,6 +10,10 @@ import { PetShopStoreFrontComponent } from './pet-shop-store-front/pet-shop-stor
 const url_name = "pet-shop"
 
 const routes: Routes = [
+  {
+    path: `${url_name}-animals-catagory/birds`,
+    component: PetShopAnimalsBirdsComponent
+  },
   {
     path: `${url_name}-animals-catagory`,
     component: PetShopAnimalsComponent

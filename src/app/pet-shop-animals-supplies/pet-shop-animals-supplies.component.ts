@@ -15,22 +15,26 @@ export class PetShopAnimalsSuppliesComponent implements OnInit {
     {
       name: "mammal supplies", 
       imgUrl: "assets/images/pet-shop-animal-supply-catagories/pet-shop-mammal-supplies.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
     {
       name: "fish supplies", 
       imgUrl: "assets/images/pet-shop-animal-supply-catagories/pet-shop-fish-supplies.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
     {
       name: "reptile supplies", 
       imgUrl: "assets/images/pet-shop-animal-supply-catagories/pet-shop-reptile-supplies.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
     {
       name: "bird supplies", 
       imgUrl: "assets/images/pet-shop-animal-supply-catagories/pet-shop-bird-supplies.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
   ]
 

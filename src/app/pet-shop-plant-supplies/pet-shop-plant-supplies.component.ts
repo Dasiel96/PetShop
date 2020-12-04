@@ -16,22 +16,26 @@ export class PetShopPlantSuppliesComponent implements OnInit {
     {
       name: "plant soil", 
       imgUrl: "assets/images/pet-shop-plant-supply-catagories/pet-shop-plant-soil.jpg", 
-      price: ""
+      price: "",
+      link: "",
     },
     {
       name: "plant fertilizer", 
       imgUrl: "assets/images/pet-shop-plant-supply-catagories/pet-shop-plant-fert.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
     {
       name: "plant lights", 
       imgUrl: "assets/images/pet-shop-plant-supply-catagories/pet-shop-plant-light.jpeg", 
-      price: ""
+      price: "",
+      link: ""
     },
     {
       name: "plant tools", 
       imgUrl: "assets/images/pet-shop-plant-supply-catagories/pet-shop-plant-tools.jpg", 
-      price: ""
+      price: "",
+      link: ""
     },
   ]
   constructor() { }

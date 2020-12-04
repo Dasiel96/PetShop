@@ -25,6 +25,7 @@ import { PetShopAnimalsComponent } from './pet-shop-animals/pet-shop-animals.com
 import { PetShopAnimalsSuppliesComponent } from './pet-shop-animals-supplies/pet-shop-animals-supplies.component';
 import { PetShopPlantsComponent } from './pet-shop-plants/pet-shop-plants.component';
 import { PetShopPlantSuppliesComponent } from './pet-shop-plant-supplies/pet-shop-plant-supplies.component';
+import { PetShopProductsComponent } from './pet-shop-products/pet-shop-products.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { PetShopPlantSuppliesComponent } from './pet-shop-plant-supplies/pet-sho
     PetShopAnimalsSuppliesComponent,
     PetShopPlantsComponent,
     PetShopPlantSuppliesComponent,
+    PetShopProductsComponent,
   ],
   imports: [
     BrowserModule,
