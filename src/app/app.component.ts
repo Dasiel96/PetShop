@@ -7,6 +7,7 @@ export interface Product {
   imgUrl: string,
   price: string,
   link: string,
+  index: number,
   des?: string
 }
 

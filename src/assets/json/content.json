@@ -1,5 +1,37 @@
 {
-    "animal-info": {
-        "content" : ""
-    }
+    "birds": [
+        {
+            "name": "cockatoo",
+            "price": "872.66",
+            "des": " cockatoo is any of the 21 parrot species belonging to the family Cacatuidae, the only family in the superfamily Cacatuoidea. Along with the Psittacoidea (true parrots) and the Strigopoidea (large New Zealand parrots), they make up the order Psittaciformes. The family has a mainly Australasian distribution, ranging from the Philippines and the eastern Indonesian islands of Wallacea to New Guinea, the Solomon Islands and Australia.\n\nCockatoos are recognisable by the prominent crests and curved bills. Their plumage is generally less colourful than that of other parrots, being mainly white, grey or black and often with coloured features in the crest, cheeks or tail. On average they are larger than other parrots; however, the cockatiel, the smallest cockatoo species, is a small bird. The phylogenetic position of the cockatiel remains unresolved, other than that it is one of the earliest offshoots of the cockatoo lineage. The remaining species are in two main clades. The five large black coloured cockatoos of the genus Calyptorhynchus form one branch. The second and larger branch is formed by the genus Cacatua, comprising 11 species of white-plumaged cockatoos and four monotypic genera that branched off earlier; namely the pink and white Major Mitchell's cockatoo, the pink and grey galah, the mainly grey gang-gang cockatoo and the large black-plumaged palm cockatoo. ",
+            "des-short": "cockatoos are noisy, but form strong bonds with their owners",
+            "ref": "https://en.wikipedia.org/wiki/Cockatoo",
+            "img-ref": "https://lafeber.com/vet/basic-information-sheet-for-the-cockatoo/",
+            "url": "assets/images/pet-shop-animal-bird/",
+            "img-name": "pet-shop-cockatoo-moluccan.jpg",
+            "index": 0
+        },
+        {
+            "name": "parakeet",
+            "price": "498.87",
+            "des": "parakeets are a smaller member of the parrot family, and with proper care can live up to 20 years. The parakeet has become a popular pet due to its often striking colors and ease of taming.\n\nParakeets are very social birds and prefer to be kept in pairs or small groups. The genders in a group or pair can be mixed. If you do not want to breed your birds, it is suggested to keep them in groups of the same gender.\n\nWings and nails can be trimmed to ease the taming process. Many veterinary clinics offer this service. Clipping wings and nails should only be attempted after proper instruction provided by your vet. Parakeets, being a smaller bird, have only a small amount of blood in their bodies and can easily bleed to death if a feather or nail is trimmed too close to a vein.\n\nParakeets have a very active metabolism and can easily become ill if they go without food for 24 hours. Parakeets should be provided with a staple diet of fresh parakeet seed or pellets daily. Be sure to check the food dish daily, as they will only eat from the top of what is offered. In addition to a pellet diet, parakeets should be offered chopped dark green and yellow veggies as well as a variety of fruits, hard cooked eggs, and grated cheese. Remember to remove fresh foods after two hours to prevent them from spoiling. If the bird's stool becomes runny, it could be due to receiving too much liquid from the fresh fruits and vegetables. If this becomes an issue, restrict the fresh foods for a day to see if the issue resolves. Millet Spray is also an excellent supplement for Parakeets.\n\nParakeets need fresh water every day. Be sure to wash and rinse the dish thoroughly each day to prevent bacterial growth. Supplemental powdered vitamins can also be sprinkled on the food. Refrain from adding them to the water as it can support growth of bacteria. Cuttlebones should also be provided to supply your parakeet with calcium and prevent overgrowth of the beak.\n\n--\\",
+            "des-short": "parakeets are a great beginner parot, but take some work to bond to owner",
+            "ref": "https://www.animalhumanesociety.org/adoption/parakeet-budgerigar-care",
+            "img-ref": "https://www.animalhumanesociety.org/adoption/parakeet-budgerigar-care",
+            "img-name": "pet-shop-parakeet.jpg",
+            "url": "assets/images/pet-shop-animal-bird/",
+            "index": 1
+        },
+        {
+            "name": "finch",
+            "price": "441.56",
+            "des": "the zebra finch (Taeniopygia guttata)[2] is the most common estrildid finch of Central Australia and ranges over most of the continent, avoiding only the cool moist south and some areas of the tropical far north. It can also be found natively on Timor island. The bird has been introduced to Puerto Rico and Portugal.[1]\nThe zebra finch has the most extensive mainland distribution of the Australian estrilids, being found in about 75% of mainland Australia, as the subspecies Taeniopygia guttata castanotis. This subspecies is generally not found on the coasts, except for the arid western edge.[11] As the subspecies T. g. guttata, it is distributed from the islands Lombok and Sumbawa in the Lesser Sundas east to Luang and Sermata, and south to Sumba, Sawu, Dao, Roti, Semau, and Timor.[10]\nThe zebra finch (or at the very least, the subspecies T. g. castanotis) is generally found in more arid areas.[8] The areas it chooses to occupy are close to water, and places where rain is concentrated after it falls.[12] However, this is likely more related to the abundance of vegetation than the abundance of water as a resource in itself.[13] Within these areas, it is found in grasslands with scattered trees and shrubs, and in open or grassy woodlands.[8] It is also found in cultivated areas,[14] such as rice fields[10] It usually stays confined to the low coastal areas of the islands it inhabits, but it can move to elevations up to 2,300 metres (7,500 ft) to exploit expanding cultivation and grasslands.[15]\nAlthough zebra finch breeding, for example, is initiated by rainfall,[16] Klaus Immelmann proposed that sustained heavy precipitation is detrimental to the zebra finch. This is supported by the observation that the nest does not shield the chicks or eggs from rain, and rainfall can sometimes result in clutches being abandoned. Furthermore, it is supported by Immelmann's finding that zebra finches left Wyndham after the first heavy rains in November 1959, but returned to breed in April. It is hypothesised that birds in parts of northern Australia migrate inland during the wet season from October to May, and return to the coastal regions during the dryer months.[17]",
+            "des-short": "finches are great observational birds, but they do not like a lot of handling",
+            "ref": "https://en.wikipedia.org/wiki/Zebra_finch",
+            "img-ref": "https://en.wikipedia.org/wiki/Zebra_finch",
+            "img-name": "pet-shop-finch.jpg",
+            "url": "assets/images/pet-shop-animal-bird/",
+            "index": 2
+        }
+    ]
 }

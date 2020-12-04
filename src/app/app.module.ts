@@ -26,6 +26,10 @@ import { PetShopAnimalsSuppliesComponent } from './pet-shop-animals-supplies/pet
 import { PetShopPlantsComponent } from './pet-shop-plants/pet-shop-plants.component';
 import { PetShopPlantSuppliesComponent } from './pet-shop-plant-supplies/pet-shop-plant-supplies.component';
 import { PetShopProductsComponent } from './pet-shop-products/pet-shop-products.component';
+import { PetShopProductsDetailService } from './pet-shop-products-detail.service';
+import { PetShopProductDynamicDirective } from './pet-shop-product-dynamic.directive';
+import { PetShopProductInfoComponent } from './pet-shop-product-info/pet-shop-product-info.component';
+import { PetShopProductCatagoryServiceService } from './pet-shop-product-catagory-service.service';
 
 @NgModule({
   declarations: [
@@ -53,12 +57,20 @@ import { PetShopProductsComponent } from './pet-shop-products/pet-shop-products.
     PetShopPlantsComponent,
     PetShopPlantSuppliesComponent,
     PetShopProductsComponent,
+    PetShopProductDynamicDirective,
+    PetShopProductInfoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent, PetShopStoreFrontComponent]
+  providers: [
+    PetShopProductsDetailService,
+    PetShopProductCatagoryServiceService
+  ],
+  bootstrap: [
+    AppComponent, 
+    PetShopStoreFrontComponent
+  ]
 })
 export class AppModule { }

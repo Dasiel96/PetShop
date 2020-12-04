@@ -6,6 +6,7 @@ import { PetShopAnimalsComponent } from './pet-shop-animals/pet-shop-animals.com
 import { PetShopPlantSuppliesComponent } from './pet-shop-plant-supplies/pet-shop-plant-supplies.component';
 import { PetShopPlantsComponent } from './pet-shop-plants/pet-shop-plants.component';
 import { PetShopProductCatagoriesComponent } from './pet-shop-product-catagories/pet-shop-product-catagories.component';
+import { PetShopProductInfoComponent } from './pet-shop-product-info/pet-shop-product-info.component';
 import { PetShopStoreFrontComponent } from './pet-shop-store-front/pet-shop-store-front.component';
 const url_name = "pet-shop"
 
@@ -31,8 +32,12 @@ const routes: Routes = [
     component: PetShopPlantSuppliesComponent
   },
   {
-    path: "pet-shop-home",
+    path: `${url_name}-home`,
     component: PetShopStoreFrontComponent
+  },
+  {
+    path: `${url_name}-product-info`,
+    component: PetShopProductInfoComponent
   },
   {
     path: "",

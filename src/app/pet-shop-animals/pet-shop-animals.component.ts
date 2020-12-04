@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../app.component';
+import { PetShopProductCatagoryServiceService } from '../pet-shop-product-catagory-service.service';
 
 @Component({
   selector: 'app-pet-shop-animals',
@@ -12,34 +13,14 @@ import { Product } from '../app.component';
 
 export class PetShopAnimalsComponent implements OnInit {
 
-  product_objs_list: Product[] = [
-    { 
-      name: "mammals", 
-      imgUrl: "assets/images/pet-shop-animal-catagories/pet-shop-mammal-catagory.jpg", 
-      price: "" ,
-      link: ""
-    },
-    { 
-      name: "fish", 
-      imgUrl: "assets/images/pet-shop-animal-catagories/pet-shop-fish-catagories.jpg", 
-      price: "",
-      link: ""
-    },
-    { 
-      name: "reptiles", 
-      imgUrl: "assets/images/pet-shop-animal-catagories/pet-shop-reptile-catagories.jpg", 
-      price: "",
-      link: ""
-    },
-    { 
-      name: "birds", 
-      imgUrl: "assets/images/pet-shop-animal-catagories/pet-shop-bird-catagories.jpg", 
-      price: "",
-      link: "/pet-shop-animals-catagory/birds" 
-    },
-  ]
+  product_objs_list: Product[] = []
 
-  constructor() { }
+  constructor(service: PetShopProductCatagoryServiceService) {
+    const catagory = service.ANIMAL_CATAGORY
+    if (service.get(catagory)){
+      this.product_objs_list = service.get(catagory)!!
+    }
+   }
 
   ngOnInit(): void {
   }
