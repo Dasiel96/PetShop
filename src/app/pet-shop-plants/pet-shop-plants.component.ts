@@ -14,7 +14,7 @@ export class PetShopPlantsComponent implements OnInit {
   product_objs_list: Product[] = [
     {
       name: "aquatic plants", 
-      imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-aquatic-plants.jpg", 
+      imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-aquatic-plants-sm.jpg", 
       price: ""
     },
     {
@@ -24,7 +24,7 @@ export class PetShopPlantsComponent implements OnInit {
     },
     {
       name: "low light plants", 
-      imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-low-light-plants.jpg", 
+      imgUrl: "assets/images/pet-shop-plant-catagories/pet-shop-low-light-plants-sm.jpg", 
       price: ""
     },
     {

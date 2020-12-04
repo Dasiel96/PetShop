@@ -4,8 +4,9 @@
 <div class="shop-catagory-grid">
     <img 
         *ngFor="let product of product_objs_list" 
+        class="resize"
         src="{{product.imgUrl}}" 
         alt="pet-shop-item-catagory"
-        style="width: 100%; height: 300px; background-color: aqua;"
+        style="background-color: aqua;"
     >
 </div>
