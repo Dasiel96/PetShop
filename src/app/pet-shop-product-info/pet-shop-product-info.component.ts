@@ -16,6 +16,7 @@ export class PetShopProductInfoComponent implements OnInit {
   imgSource = ""
   desSource = ""
   price = ""
+  name = ""
 
   constructor(service: PetShopProductsDetailService) { 
     const data_list = service.getDataRetrieveData()
@@ -30,6 +31,7 @@ export class PetShopProductInfoComponent implements OnInit {
       this.imgSource = product.img_ref
       this.desSource = product.ref
       this.price = product.price
+      this.name = product.name
     }
   }
 

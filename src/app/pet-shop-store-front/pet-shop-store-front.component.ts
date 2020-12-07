@@ -67,7 +67,7 @@ export class PetShopStoreFrontComponent implements OnInit {
     if (product_list) {
       for (let i = 0; i < 3; i++) {
         let product = this.createProduct(this.getRandomItem(product_list!!), rand_key)
-        while (list.includes(product)){
+        while (this.checkUrlExistsInList(list, product.imgUrl)){
           rand_key = this.getRandomKey(this.service)
           product_list = this.service.getSpecies(rand_key)
           product = this.createProduct(this.getRandomItem(product_list!!), rand_key)
@@ -153,6 +153,18 @@ export class PetShopStoreFrontComponent implements OnInit {
     }
   }
 
+  private checkUrlExistsInList(list: Product[], url: string) {
+    let exist = false
+
+    for (let product of list) {
+      if (product.imgUrl === url) {
+        exist = true
+        break
+      }
+    }
+
+    return exist
+  }
   prev() {
     if (this.promo_index - 1 > 0) {
       this.promo_index--
