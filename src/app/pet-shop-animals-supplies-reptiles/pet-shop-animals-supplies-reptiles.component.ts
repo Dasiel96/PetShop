@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Product } from '../app.component';
 
 @Component({
   selector: 'app-pet-shop-animals-supplies-reptiles',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PetShopAnimalsSuppliesReptilesComponent implements OnInit {
 
+  product_objs_list:Product[] = []
+  product_type ="reptile-supplies"
   constructor() { }
 
   ngOnInit(): void {

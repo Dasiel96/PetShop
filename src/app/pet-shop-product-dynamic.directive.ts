@@ -1,5 +1,4 @@
 import { Directive, Input, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
-import { Router } from '@angular/router';
 import { Product } from './app.component';
 import { PetShopProductsDetailService } from './pet-shop-products-detail.service';
 

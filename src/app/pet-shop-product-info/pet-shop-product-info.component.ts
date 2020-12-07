@@ -13,6 +13,9 @@ export class PetShopProductInfoComponent implements OnInit {
 
   imgUrl = ""
   des = ""
+  imgSource = ""
+  desSource = ""
+  price = ""
 
   constructor(service: PetShopProductsDetailService) { 
     const data_list = service.getDataRetrieveData()
@@ -24,6 +27,9 @@ export class PetShopProductInfoComponent implements OnInit {
       const product = product_list[index]
       this.imgUrl = `${product.img_url}${product.img_name}`
       this.des = product.des
+      this.imgSource = product.img_ref
+      this.desSource = product.ref
+      this.price = product.price
     }
   }
 

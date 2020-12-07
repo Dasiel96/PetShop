@@ -7,12 +7,26 @@ def addCatagory(data):
     data[catagory] = []
     return catagory
 
+def cleanTextOfCite(text):
+    include_char = True
+    clean_text = ""
+    for char in text:
+        if char == "[":
+            include_char = False
+        elif char == "]":
+            include_char = True
+            continue
+        
+        if include_char:
+            clean_text += char
+    return clean_text
+
 
 def multiLineInput(msg):
     print(msg)
     input_txt = ""
     while True:
-        line = input()
+        line = cleanTextOfCite(input())
         if line != "--/":
             input_txt += f"{line}\n"
         else:
@@ -45,6 +59,8 @@ def addContent(data, key, url):
 
     if url is None or input(f"select new url? current is {url}: ").lower() in "yes":
         content[url_key] = input("enter image path: ")
+        if content[url_key][len(content[url_key])-1] != '/':
+            content[url_key] += '/'
     else:
         content[url_key] = url
 
@@ -91,13 +107,16 @@ def main():
         if edit_json == "1":
             catagory_key = addCatagory(JSON_DATA)
             edit_json = "yes"
+            saveJson(JSON_DATA, PATH)
         elif edit_json == "2":
             url = addContent(JSON_DATA, catagory_key, url)
             edit_json = "yes"
+            saveJson(JSON_DATA, PATH)
         else:
             edit_json = "no"
-
+            
     saveJson(JSON_DATA, PATH)
+
 
 
 if __name__ == "__main__":

@@ -55,6 +55,10 @@ export class PetShopProductsDetailService implements OnInit{
     return this.product_details.get(key)
   }
 
+  getKeys() {
+    return this.product_details.keys()
+  }
+
   setDataRetrieveData(key: string, index: number) {
     this.key = key
     this.index = index
