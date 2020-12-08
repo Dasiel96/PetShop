@@ -34,7 +34,7 @@ import { PetShopStoreFrontDirective } from './pet-shop-store-front.directive';
 import { PetShopAboutComponent } from './pet-shop-about/pet-shop-about.component';
 import { PetShopContactComponent } from './pet-shop-contact/pet-shop-contact.component';
 import { TestDirDirective } from './test-dir.directive';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { HashLocationStrategy, LocationStrategy, PathLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -76,7 +76,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
   providers: [
     PetShopProductsDetailService,
     PetShopProductCatagoryServiceService,
-    {provide: LocationStrategy, useClass: HashLocationStrategy}
+    {provide: LocationStrategy, useClass: PathLocationStrategy}
   ],
   bootstrap: [
     AppComponent
