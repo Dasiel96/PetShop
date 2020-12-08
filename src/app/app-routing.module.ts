@@ -125,7 +125,7 @@ const routes: Routes = [
     component: PetShopContactComponent
   },
   {
-    path: "",
+    path: site_links.blank,
     component: PetShopStoreFrontComponent
   },
 ];
