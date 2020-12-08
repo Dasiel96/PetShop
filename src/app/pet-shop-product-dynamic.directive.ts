@@ -1,6 +1,7 @@
 import { Directive, Input, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
 import { Product } from './app.component';
 import { PetShopProductsDetailService } from './pet-shop-products-detail.service';
+import * as site_links from "../assets/json/site-links.json"
 
 
 
@@ -30,7 +31,7 @@ export class PetShopProductDynamicDirective implements OnInit {
             name: detail.name,
             price: detail.price,
             imgUrl: `${detail.img_url}${detail.img_name}`,
-            link: "/pet-shop-product-info",
+            link: `/${site_links.info}`,
             index: detail.item_index,
             des: detail.des_short,
           }

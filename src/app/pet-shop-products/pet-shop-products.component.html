@@ -10,9 +10,8 @@
     <div 
         class="col-3-span" 
         *ngFor="let product of product_objs_list"
-        (click)="saveKeyAndIndex(product_type, product.link, product.index)"
     >
-        <div>
+        <div (click)="saveKeyAndIndex(product_type, product.link, product.index)">
             <img class="resize" src="{{product.imgUrl}}" alt="pet-shop-item-catagory" style="background-color: aqua;">
         </div>
         <div class="col-6-span" id="product-header">

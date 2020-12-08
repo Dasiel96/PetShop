@@ -1,4 +1,6 @@
+import { Route } from '@angular/compiler/src/core';
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Product } from '../app.component';
 
 @Component({
@@ -12,9 +14,13 @@ import { Product } from '../app.component';
 export class PetShopProductCatagoriesComponent implements OnInit {
 
   @Input() product_objs_list: Product[] = []
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  redirect(key: string, index: number, link: string) {
+
   }
 
 }
